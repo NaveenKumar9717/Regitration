@@ -1,0 +1,94 @@
+body {
+  padding: 30px;
+  background-color: black;
+  background-image: url("Bck.jpg");
+}
+#Register {
+  font-size: 300%;
+}
+
+.tab {
+  display: none;
+}
+#page1 {
+  /* background-image: url("Page1.jpeg"); */
+  background-color: #fafbfd;
+  padding: 20px;
+  border-top-left-radius: 18rem;
+  border-top-right-radius: 15rem;
+  font-size: 200%;
+  border-bottom-left-radius: 18rem;
+}
+#page2 {
+  font-size: 150%;
+}
+#profile {
+  width: 25%;
+  height: 25%;
+  margin: 2rem;
+  border-style: solid;
+  border-radius: 0%;
+}
+/* #page2{ padding :10px ;
+  font-family: 'Open Sans', sans-serif;
+  background-color :#F5B7B1  ;
+  display :none ;
+} */
+#page3 {
+  font-size: 150%;
+  display: none;
+}
+#page4 {
+  font-size: 150%;
+}
+#browser {
+  border-radius: 0.5rem;
+  background-color: rgba(229, 235, 229, 0);
+  border-style: solid;
+}
+#another-skill {
+  border-radius: 0.2rem;
+  border-style: none;
+  background-color: rgb(83, 218, 135);
+  width: 50px;
+  color: #fafbfd;
+}
+#resume {
+  float: left;
+}
+#Docs {
+  float: right;
+}
+#Educationdocs {
+  float: right;
+  padding: 1rem;
+  background-color: green;
+  width: 20%;
+  height: 25%;
+}
+.step {
+  height: 30px;
+  width: 30px;
+  margin: 0 2px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 80%;
+  display: inline-block;
+  opacity: 0.5;
+  color: white;
+  margin-bottom: 30px;
+}
+.step.active {
+  opacity: 1;
+}
+.step.finish {
+  background-color: #4caf50;
+}
+#choose {
+  border-radius: 0.2rem;
+  background-color: #fafbfd;
+  color: pink;
+  width: 200px;
+  height: 40px;
+  padding: 0.5rem;
+}
