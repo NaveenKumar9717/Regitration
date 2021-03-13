@@ -60,7 +60,7 @@ function nextPrev(n) {
     return false;
   }
 
-  $(x[currentTab]).slideUp(1000);
+  $(x[currentTab]).slideUp(500);
   // $(".x[currentTab]").slideDown(2000) ;
 
   currentTab = currentTab + n;
